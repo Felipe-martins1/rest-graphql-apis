@@ -29,7 +29,7 @@ const init = connection => {
         const products = results.map(product => {
             return {
                 ...product,
-                images: mapImages[product.id]
+                image: mapImages[product.id]
             }
         })
         return products

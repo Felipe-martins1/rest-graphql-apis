@@ -1,11 +1,19 @@
-const { getAllProducts, createProduct } = require('./products')
-
+const { getAllProducts, createProduct, deleteProduct, updateProduct, createImageOnProduct, deleteImageOnProduct } = require('./products')
+const { getAllCategories, createCategory, deleteCategory, updateCategory } = require('./categories')
 const resolvers = {
     Query: {
-        getAllProducts
+        getAllProducts,
+        getAllCategories
     },
     Mutation: {
-        createProduct
+        createProduct,
+        deleteProduct,
+        updateProduct,
+        createImageOnProduct,
+        deleteImageOnProduct,
+        createCategory,
+        deleteCategory,
+        updateCategory
     }
 
 }
