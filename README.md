@@ -1,6 +1,7 @@
 # APIs: Rest and GraphQL
 
-This repository was made with the objective of studying APIs: Rest and GraphQL
+ENG - This repository was made with the objective of studying APIs: Rest and GraphQL
+PTBR - Este repositório foi feito com o objetivo de estudar APIs: Rest e GraphQL
 
 
 ## Summary
