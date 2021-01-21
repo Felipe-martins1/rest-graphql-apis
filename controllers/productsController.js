@@ -1,3 +1,4 @@
+const jwt = require('jsonwebtoken')
 
 const db = require('../db')
 const Product = require('../models/product')(db)

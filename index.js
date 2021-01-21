@@ -5,6 +5,7 @@ const routes = require('./routes')
 const graphqlServer = require('./graphql/index')
 
 
+
 //rest
 app.use(bodyParser.json())
 app.use(routes)
